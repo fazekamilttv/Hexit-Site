@@ -1,0 +1,83 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.nav {
+    display: flex;
+    width: auto;
+    height: 55px;
+    background-color: #2C2824;
+    color: white;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.homeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 34px;
+    height: 34px;
+    border-radius: 20%;
+    color: white;
+    margin-left: 10px;
+}
+
+.lPage {
+    display: flex;
+    background: linear-gradient(to right, #500B7A, #6C6EF8);
+    width: auto;
+    height: 630px;
+    color: white;
+    font-size: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    font-size: 100px;
+}
+
+.paragraph {
+    background-color: beige;
+    width: auto;
+    height: 500px;
+    font-size: 50px;
+}
+
+.footer {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    height: 80px;
+    background-color: black;
+    width: auto;
+    color: white;
+    font-size: 16px;
+}
+
+.icons {
+    font-size: 24px;
+    
+}
+
+.dropBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 20%;
+    width: 34px;
+    height: 34px;
+}
